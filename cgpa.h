@@ -6,7 +6,7 @@ int level;
 string semester;
 void one(),two(),three(),four(),five();
 
-void user_input()
+void CGPA()
 {
     cout << "Enter your level '100, 200, 300, 400, 500' ";
     cin >> level; cout << endl;
@@ -55,7 +55,6 @@ void two()
 {
     if (semester == "alpha")
     {
-        cin clear();
         double first,second,third,result;
         cout << "100 level alpha semester GPA ";
         cin >> first;
