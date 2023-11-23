@@ -3,9 +3,10 @@
 
 using namespace std;
 
-int main()
+void check()
 {
     int option;
+    void check();
     cout << "Please select Your service\n"<<endl;
     cout << "[1] CGPA calculator \n";
     cout << "[2] GPA calculator\n";
@@ -17,11 +18,18 @@ int main()
             CGPA();
             break;
         case 2:
-            cout << "Still under construction";
+            cout << "Still under construction\n";
             break;
         default:
-            cout << "Invalid option";
+            cout << "Invalid option\n";
+            check();
     }
+}
+
+int main()
+{
+
+    check();
 
     return 0;
 }
