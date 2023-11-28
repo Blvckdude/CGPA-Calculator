@@ -24,3 +24,6 @@ This C++ CGPA calculator is a simple console application that allows users to ca
 
 > ./cgpa_calculator
 
+## License
+    
+[MIT Lisence](LICENSE)
